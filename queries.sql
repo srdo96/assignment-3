@@ -14,6 +14,19 @@ from
   join vehicles v on b.vehicle_id = v.vehicle_id
 
 --   Query 2: EXISTS
+select
+  *
+from
+  vehicles v
+where
+  not exists (
+    select
+      1
+    from
+      bookings b
+    where
+      b.vehicle_id = v.vehicle_id
+  )
 
 
 -- Query 3: WHERE
