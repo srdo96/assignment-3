@@ -1,4 +1,3 @@
 # Assignment-3: Vehicle Rental System - Database Design & SQL Queries
 
-# Part 2: SQL Queries
-
+# In this assignment, I designed a ERD diagram of a vehicle rental system
